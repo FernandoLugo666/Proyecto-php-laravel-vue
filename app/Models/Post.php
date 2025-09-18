@@ -23,7 +23,6 @@ class Post extends Model
     //Creo las relaciones 
     public function category()
     {
-
         return $this->belongsTo(Category::class);
     }
 
